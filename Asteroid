@@ -1,0 +1,447 @@
+<iframe id="arc-broker" src="https://core.arc.io/broker.html?290eb2f" title="Arc.io Broker Iframe" sandbox="allow-scripts allow-same-origin allow-top-navigation-by-user-activation" loading="eager" data-arc-widget="" style="opacity: 0 !important; width: 0px !important; height: 0px !important; border: medium !important; top: -9999px !important; left: -9999px !important; position: fixed !important; visibility: hidden !important;"></iframe>
+<iframe src="main.html"></iframe>
+
+    
+    <script src="worksheets/api/lod.js"></script>
+
+    <script src="worksheets/api/abcc.js"></script>
+
+
+<div data-v-006c9b03="" id="arc-widget-container" style="height: 774px;"><div data-v-006c9b03="" id="arc-widget" class="intrinsic-ignore arc-absolute-left"><iframe data-v-28716f3d="" data-v-006c9b03="" frameborder="0" title="Arc.io Widget Launcher" class="arc-iframe is-visible" id="arc-widget-launcher-iframe"></iframe>
+<iframe data-v-d0762f48="" data-v-006c9b03="" frameborder="0" title="Arc.io Widget Body" class="arc-iframe view-default" id="arc-popper-iframe" style="display: none;"></iframe>
+<div data-v-006c9b03="" id="arc-page-shadow" style="opacity: 0;"></div>
+</div>
+</div>
+<div class="snowlord-devConsole-container showing">
+	<div class="snowlord-devConsole-container-nav">
+		<a class="snowlord-devConsole-container-nav-elementViewer" style="float: left;">🔍</a>
+
+		<a class="snowlord-devConsole-container-nav-elementEditor" style="float: left;">✎</a>
+
+		<a name="snowlord-devConsole-container-body-elements" style="float: left;">Elements</a>
+
+		<a name="snowlord-devConsole-container-body-console" style="float: left;">Console</a>
+
+		<a name="snowlord-devConsole-container-body-sources" style="float: left;">Sources</a>
+
+		<a name="snowlord-devConsole-container-body-tools" style="float: left;">Tools</a>
+
+		<a name="snowlord-devConsole-container-body-settings" style="float: left;">Settings</a>
+
+		<a class="snowlord-devConsole-container-body-exit" style="float: right;">🗙</a>
+
+	</div>
+
+	
+	<div class="snowlord-devConsole-container-body">
+		<div class="snowlord-devConsole-container-body-elements hidden">
+			<h3 style="border-bottom: 2px solid #000;">Elements</h3>
+
+            <div class="snowlord-devConsole-container-body-elements-container" style="white-space: pre; width: 100%; height: 200px; overflow: scroll;">
+            </div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-console hidden">
+			<div class="snowlord-devConsole-container-body-console-text" style="user-select: auto;">
+				<div class="snowlord-devConsole-container-body-console-messages">
+					<span style="color: #bababa; user-select: none;">⮞9:16:14 </span>
+
+					<span style="color: #000;">Console has loaded!</span>
+
+				</div>
+
+			</div>
+
+			<div class="snowlord-devConsole-container-body-console-commands">
+				<textarea id="snowlord-devConsole-container-body-console-input" placeholder="console.log('Hello World!');" style="resize: horizontal; position: sticky; width: 100%; height: 90%; outline: none; border: none;"></textarea>
+
+			</div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-sources showing">
+			<div class="snowlord-devConsole-container-body-sources-scripts" style="padding-left: 10px;">
+				<h3 style="border-bottom: 2px solid #000;">Page <a class="snowlord-devConsole-container-body-sources-scripts-reload" style="cursor: pointer; color: #0a68ff; user-select: none;">↺</a>
+</h3>
+
+				<div class="snowlord-devConsole-container-body-sources-scripts-container" style="float: left; width: 60%; background-color: #bababa;">
+					<ul style="float: left; width: 26%; padding: 3%; margin: 0;">
+						<li>Scripts</li>
+
+						<ul class="snowlord-devConsole-container-body-sources-other" style="padding: 3px; height: 120px; overflow:hidden; overflow-y:scroll; background-color: #e0e0e0;"><li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">bundle.min.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">widget.min.js#i2pjQQrd</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">core.js?290eb2f</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">core-legacy.js?290eb2f</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">vendors~widget-ui.js?c9b0de53</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">widget-ui.js?6e086999</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">vendors~widget-sc-client.js?35fccb86</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">widget-sc-client.js?197dbd2e</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">strn.min.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">vendors~saturn-benchmark.js?b7a151e4</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">saturn-benchmark.js?058026e9</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">chunk-2d0cf2b3.js?d98d2542</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">main.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">lod.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">abcc.js</a>
+</li>
+</ul>
+
+					</ul>
+
+					<ul style="float: left; width: 26%; padding: 3%; margin: 0;">
+						<li>Styles</li>
+
+						<ul class="snowlord-devConsole-container-body-sources-styles" style="padding: 3px; height: 120px; overflow:hidden; overflow-y:scroll; background-color: #e0e0e0;"><li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank">gmail-16-16.png</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank">fractions.css</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank"></a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank"></a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank">core.js?290eb2f</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank">widget.css?290eb2f</a>
+</li>
+</ul>
+
+					</ul>
+
+					<ul style="float: left; width: 26%; padding: 3%; margin: 0;">
+						<li>Meta</li>
+
+						<ul class="snowlord-devConsole-container-body-sources-main" style="padding: 3px; height: 120px; overflow:hidden; overflow-y:scroll; background-color: #e0e0e0;"><li><a onclick="alert('');">undefined</a>
+</li>
+<li><a onclick="alert('IE=edge');">undefined</a>
+</li>
+<li><a onclick="alert('Math explained in easy language, plus puzzles, games, worksheets and an illustrated dictionary. For K-12 kids, teachers and parents.');">description</a>
+</li>
+<li><a onclick="alert('width=device-width, initial-scale=1');">viewport</a>
+</li>
+</ul>
+
+					</ul>
+
+				</div>
+
+				
+				<div class="snowlord-devConsole-container-body-sources-scripts-preview" style="float: left; width: 40 %; background-color: #bababa;">
+					<iframe class="snowlord-devConsole-container-body-sources-scripts-preview-frame" width="100%" height="100%" frameborder="0" scrolling="yes"></iframe>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-tools hidden">
+			<h3 style="border-bottom: 2px solid #000;">Tools</h3>
+
+            <h4>Local Storage</h4>
+<div id="snowlord-devConsole-localStorage">{
+  <span class="key">"__uv$https://mathsspot.com@apstagCxMEnabled":</span>
+ <span class="string">"1"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@cwglt":</span>
+ <span class="string">"1706800416134"</span>
+,
+  <span class="key">"__uv$https://www.roblox.com@Roblox.Api.Locales.getLocales":</span>
+ <span class="string">"{\"data\":{\"data\":[{\"locale\":{\"id\":43,\"locale\":\"bs_ba\",\"name\":\"Bosnian\",\"nativeName\":\"Босански\",\"language\":{\"id\":22,\"name\":\"Bosnian\",\"nativeName\":\"bosanski jezik\",\"languageCode\":\"bs\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":40,\"locale\":\"sk_sk\",\"name\":\"Slovak\",\"nativeName\":\"Slovenčina\",\"language\":{\"id\":144,\"name\":\"Slovak\",\"nativeName\":\"Slovenčina\",\"languageCode\":\"sk\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":37,\"locale\":\"ro_ro\",\"name\":\"Romanian\",\"nativeName\":\"Română\",\"language\":{\"id\":132,\"name\":\"Romanian\",\"nativeName\":\"Română\",\"languageCode\":\"ro\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":34,\"locale\":\"nl_nl\",\"name\":\"Dutch\",\"nativeName\":\"Nederlands\",\"language\":{\"id\":39,\"name\":\"Dutch\",\"nativeName\":\"Nederlands\",\"languageCode\":\"nl\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":36,\"locale\":\"pl_pl\",\"name\":\"Polish\",\"nativeName\":\"Polski\",\"language\":{\"id\":126,\"name\":\"Polish\",\"nativeName\":\"Język Polski\",\"languageCode\":\"pl\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":35,\"locale\":\"fil_ph\",\"name\":\"Filipino\",\"nativeName\":\"Filipino\",\"language\":{\"id\":190,\"name\":\"Filipino\",\"nativeName\":\"Filipino\",\"languageCode\":\"fil\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":41,\"locale\":\"sl_sl\",\"name\":\"Slovenian\",\"nativeName\":\"Slovenski\",\"language\":{\"id\":145,\"name\":\"Slovenian\",\"nativeName\":\"Slovenščina\",\"languageCode\":\"sl\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":14,\"locale\":\"zh_cn\",\"name\":\"Chinese (Simplified)\",\"nativeName\":\"中文(简体)\",\"language\":{\"id\":30,\"name\":\"Chinese (Simplified)\",\"nativeName\":\"简体中文\",\"languageCode\":\"zh-hans\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":7,\"locale\":\"ko_kr\",\"name\":\"Korean\",\"nativeName\":\"한국어\",\"language\":{\"id\":86,\"name\":\"Korean\",\"nativeName\":\"한국어\",\"languageCode\":\"ko\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":44,\"locale\":\"sr_rs\",\"name\":\"Serbian\",\"nativeName\":\"Cрпски\",\"language\":{\"id\":140,\"name\":\"Serbian\",\"nativeName\":\"српски језик\",\"languageCode\":\"sr\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":45,\"locale\":\"sv_se\",\"name\":\"Swedish\",\"nativeName\":\"Svenska\",\"language\":{\"id\":152,\"name\":\"Swedish\",\"nativeName\":\"Svenska\",\"languageCode\":\"sv\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":28,\"locale\":\"km_kh\",\"name\":\"Khmer\",\"nativeName\":\"ភាសាខ្មែរ\",\"language\":{\"id\":188,\"name\":\"Khmer\",\"nativeName\":\"ភាសាខ្មែរ\",\"languageCode\":\"km\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":31,\"locale\":\"ms_my\",\"name\":\"Malay\",\"nativeName\":\"Bahasa Melayu\",\"language\":{\"id\":101,\"name\":\"Malay\",\"nativeName\":\"بهاس ملايو‎\",\"languageCode\":\"ms\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":33,\"locale\":\"nb_no\",\"name\":\"Bokmal\",\"nativeName\":\"Bokmål\",\"language\":{\"id\":113,\"name\":\"Bokmal\",\"nativeName\":\"Norsk Bokmål\",\"languageCode\":\"nb\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":26,\"locale\":\"ka_ge\",\"name\":\"Georgian\",\"nativeName\":\"ქართული\",\"language\":{\"id\":51,\"name\":\"Georgian\",\"nativeName\":\"ქართული\",\"languageCode\":\"ka\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":32,\"locale\":\"my_mm\",\"name\":\"Burmese\",\"nativeName\":\"ဗမာစာ\",\"language\":{\"id\":25,\"name\":\"Burmese\",\"nativeName\":\"ဗမာစာ\",\"languageCode\":\"my\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":27,\"locale\":\"kk_kz\",\"name\":\"Kazakh\",\"nativeName\":\"Қазақ Тілі\",\"language\":{\"id\":79,\"name\":\"Kazakh\",\"nativeName\":\"қазақ тілі\",\"languageCode\":\"kk\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":21,\"locale\":\"et_ee\",\"name\":\"Estonian\",\"nativeName\":\"Eesti\",\"language\":{\"id\":43,\"name\":\"Estonian\",\"nativeName\":\"eesti, eesti keel\",\"languageCode\":\"et\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":22,\"locale\":\"fi_fi\",\"name\":\"Finnish\",\"nativeName\":\"Suomi\",\"language\":{\"id\":47,\"name\":\"Finnish\",\"nativeName\":\"suomi\",\"languageCode\":\"fi\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":23,\"locale\":\"hi_in\",\"name\":\"Hindi\",\"nativeName\":\"हिन्दी\",\"language\":{\"id\":60,\"name\":\"Hindi\",\"nativeName\":\"हिन्दी, हिंदी\",\"languageCode\":\"hi\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":13,\"locale\":\"de_de\",\"name\":\"German\",\"nativeName\":\"Deutsch\",\"language\":{\"id\":52,\"name\":\"German\",\"nativeName\":\"Deutsch\",\"languageCode\":\"de\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":25,\"locale\":\"hu_hu\",\"name\":\"Hungarian\",\"nativeName\":\"Magyar\",\"language\":{\"id\":62,\"name\":\"Hungarian\",\"nativeName\":\"magyar\",\"languageCode\":\"hu\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":16,\"locale\":\"bg_bg\",\"name\":\"Bulgarian\",\"nativeName\":\"Български\",\"language\":{\"id\":24,\"name\":\"Bulgarian\",\"nativeName\":\"български език\",\"languageCode\":\"bg\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":15,\"locale\":\"zh_tw\",\"name\":\"Chinese (Traditional)\",\"nativeName\":\"中文(繁體)\",\"language\":{\"id\":189,\"name\":\"Chinese (Traditional)\",\"nativeName\":\"繁體中文\",\"languageCode\":\"zh-hant\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":17,\"locale\":\"bn_bd\",\"name\":\"Bengali\",\"nativeName\":\"বাংলা\",\"language\":{\"id\":19,\"name\":\"Bengali\",\"nativeName\":\"বাংলা\",\"languageCode\":\"bn\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":8,\"locale\":\"ru_ru\",\"name\":\"Russian\",\"nativeName\":\"Русский\",\"language\":{\"id\":133,\"name\":\"Russian\",\"nativeName\":\"Русский\",\"languageCode\":\"ru\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":9,\"locale\":\"th_th\",\"name\":\"Thai\",\"nativeName\":\"ภาษาไทย\",\"language\":{\"id\":156,\"name\":\"Thai\",\"nativeName\":\"ไทย\",\"languageCode\":\"th\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":6,\"locale\":\"ja_jp\",\"name\":\"Japanese\",\"nativeName\":\"日本語\",\"language\":{\"id\":73,\"name\":\"Japanese\",\"nativeName\":\"日本語 (にほんご),\",\"languageCode\":\"ja\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":38,\"locale\":\"uk_ua\",\"name\":\"Ukrainian\",\"nativeName\":\"Yкраїньска\",\"language\":{\"id\":169,\"name\":\"Ukrainian\",\"nativeName\":\"Українська\",\"languageCode\":\"uk\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":20,\"locale\":\"el_gr\",\"name\":\"Greek\",\"nativeName\":\"Ελληνικά\",\"language\":{\"id\":53,\"name\":\"Greek\",\"nativeName\":\"ελληνικά\",\"languageCode\":\"el\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":19,\"locale\":\"da_dk\",\"name\":\"Danish\",\"nativeName\":\"Dansk\",\"language\":{\"id\":37,\"name\":\"Danish\",\"nativeName\":\"dansk\",\"languageCode\":\"da\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":4,\"locale\":\"id_id\",\"name\":\"Indonesian\",\"nativeName\":\"Bahasa Indonesia\",\"language\":{\"id\":64,\"name\":\"Indonesian\",\"nativeName\":\"Bahasa Indonesia\",\"languageCode\":\"id\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":2,\"locale\":\"es_es\",\"name\":\"Spanish(Spain)\",\"nativeName\":\"Español\",\"language\":{\"id\":148,\"name\":\"Spanish\",\"nativeName\":\"Español\",\"languageCode\":\"es\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":5,\"locale\":\"it_it\",\"name\":\"Italian\",\"nativeName\":\"Italiano\",\"language\":{\"id\":71,\"name\":\"Italian\",\"nativeName\":\"Italiano\",\"languageCode\":\"it\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":11,\"locale\":\"vi_vn\",\"name\":\"Vietnamese\",\"nativeName\":\"Tiếng Việt\",\"language\":{\"id\":173,\"name\":\"Vietnamese\",\"nativeName\":\"Tiếng Việt\",\"languageCode\":\"vi\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":3,\"locale\":\"fr_fr\",\"name\":\"French\",\"nativeName\":\"Français\",\"language\":{\"id\":48,\"name\":\"French\",\"nativeName\":\"Français\",\"languageCode\":\"fr\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":29,\"locale\":\"lt_lt\",\"name\":\"Lithuanian\",\"nativeName\":\"Lietuvių\",\"language\":{\"id\":95,\"name\":\"Lithuanian\",\"nativeName\":\"lietuvių kalba\",\"languageCode\":\"lt\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":12,\"locale\":\"pt_br\",\"name\":\"Portuguese (Brazil)\",\"nativeName\":\"Português (Brasil)\",\"language\":{\"id\":128,\"name\":\"Portuguese\",\"nativeName\":\"Português\",\"languageCode\":\"pt\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":39,\"locale\":\"si_lk\",\"name\":\"Sinhala\",\"nativeName\":\"සිංහල\",\"language\":{\"id\":143,\"name\":\"Sinhala\",\"nativeName\":\"සිංහල\",\"languageCode\":\"si\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":24,\"locale\":\"hr_hr\",\"name\":\"Croatian\",\"nativeName\":\"Hrvatski\",\"language\":{\"id\":35,\"name\":\"Croatian\",\"nativeName\":\"hrvatski jezik\",\"languageCode\":\"hr\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":1,\"locale\":\"en_us\",\"name\":\"English(US)\",\"nativeName\":\"English\",\"language\":{\"id\":41,\"name\":\"English\",\"nativeName\":\"English\",\"languageCode\":\"en\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":10,\"locale\":\"tr_tr\",\"name\":\"Turkish\",\"nativeName\":\"Türkçe\",\"language\":{\"id\":163,\"name\":\"Turkish\",\"nativeName\":\"Türkçe\",\"languageCode\":\"tr\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":true,\"isEnabledForSignupAndLogin\":true,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":48,\"locale\":\"ar_001\",\"name\":\"Arabic\",\"nativeName\":\"العربية\",\"language\":{\"id\":7,\"name\":\"Arabic\",\"nativeName\":\"العربية\",\"languageCode\":\"ar\",\"isRightToLeft\":true}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":42,\"locale\":\"sq_al\",\"name\":\"Albanian\",\"nativeName\":\"Shqipe\",\"language\":{\"id\":5,\"name\":\"Albanian\",\"nativeName\":\"Shqip\",\"languageCode\":\"sq\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":18,\"locale\":\"cs_cz\",\"name\":\"Czech\",\"nativeName\":\"Čeština\",\"language\":{\"id\":36,\"name\":\"Czech\",\"nativeName\":\"čeština\",\"languageCode\":\"cs\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true},{\"locale\":{\"id\":30,\"locale\":\"lv_lv\",\"name\":\"Latvian\",\"nativeName\":\"Latviešu\",\"language\":{\"id\":97,\"name\":\"Latvian\",\"nativeName\":\"Latviešu Valoda\",\"languageCode\":\"lv\",\"isRightToLeft\":false}},\"isEnabledForFullExperience\":false,\"isEnabledForSignupAndLogin\":false,\"isEnabledForInGameUgc\":true}]},\"timeStamp\":1706725968637}"</span>
+,
+  <span class="key">"__uv$https://core.arc.io@IWC_DEFAULT":</span>
+ <span class="string">"0.1.3"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@cwgl":</span>
+ <span class="string">"{\"country\":\"US\",\"region\":\"VA\",\"city\":\"Ashburn\",\"postalCode\":\"20149\"}"</span>
+,
+  <span class="key">"__uv$https://now.gg@userSource":</span>
+ <span class="string">"referral"</span>
+,
+  <span class="key">"searchengine":</span>
+ <span class="string">"google"</span>
+,
+  <span class="key">"__uv$https://now.gg@fe-recent-played-apps":</span>
+ <span class="string">"[{\"appId\":\"7308\",\"icon\":\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\",\"name\":\"Fortnite\",\"playUrl\":\"https://now.gg/apps/epic-games/7308/fortnite.html\",\"appPageUrl\":\"https://now.gg/apps/epic-games/7308/fortnite.html\",\"packageName\":\"com.epicgames.fortnite\"},{\"appId\":\"7935\",\"icon\":\"https://cdn.now.gg/apps-content/com.activision.callofduty.shooter/icon/call-of-duty.png\",\"name\":\"Call of Duty Mobile\",\"playUrl\":\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\",\"appPageUrl\":\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\",\"packageName\":\"com.activision.callofduty.shooter\"},{\"appId\":\"5349\",\"icon\":\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\",\"name\":\"Roblox\",\"playUrl\":\"https://now.gg/apps/roblox-corporation/5349/roblox.html\",\"appPageUrl\":\"https://now.gg/apps/roblox-corporation/5349/roblox.html\",\"packageName\":\"com.roblox.client\"}]"</span>
+,
+  <span class="key">"__uv$https://now.gg@bugsnag-anonymous-id":</span>
+ <span class="string">"cls24lmgv00003m6liul6lf2g"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@id5id_cached_consent_data_exp":</span>
+ <span class="string">"Sat, 02 Mar 2024 20:47:55 GMT"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@bugsnag-anonymous-id":</span>
+ <span class="string">"cls24q62j00003b6f2o4szenl"</span>
+,
+  <span class="key">"__uv$https://now.gg@33acrossId_cst":</span>
+ <span class="string">",3975420427802509300,7712831381721580000"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-esp.criteo.com":</span>
+ <span class="string">"[\"esp.criteo.com\",null,1706726077058,null,null,null,null,null,null,[100]]"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-crwdcntrl.net":</span>
+ <span class="string">"[\"crwdcntrl.net\",\"\",1706726077776]"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@id5id_cached_consent_data":</span>
+ <span class="string">"4244356496872954"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@cwgl":</span>
+ <span class="string">"{\"country\":\"US\",\"region\":\"VA\",\"city\":\"Ashburn\",\"postalCode\":\"20149\"}"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@_pubcid_exp":</span>
+ <span class="string">"Fri, 31 Jan 2025 20:47:54 GMT"</span>
+,
+  <span class="key">"__uv$https://now.gg@id5id_cached_consent_data_exp":</span>
+ <span class="string">"Sat, 02 Mar 2024 20:46:27 GMT"</span>
+,
+  <span class="key">"__uv$https://now.gg@userAcqVar":</span>
+ <span class="string">"NA_2024 AT PST_JAN_31_UNDEFINED"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-rtbhouse":</span>
+ <span class="string">"[\"rtbhouse\",\"rthrRBJhSgCHCp8wSQMzoIiPWcq0FVOcKXqhZD6L016KcIS8KDkkYXChJQFcHlFagVJ1j/ujlo3uO7HvcObRmhzRVSMwUVaDAUVl1to6ghBK0bGAi7hD89L5AA9lZmZTjO2aUhAM9llg9wGNycrTubnGtKVfFnkkr0XvyP+skeg=\",1706726077975]"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@userSource":</span>
+ <span class="string">"direct"</span>
+,
+  <span class="key">"__uv$https://now.gg@id5id_cached_consent_data":</span>
+ <span class="string">"4244356496872954"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-pubcid.org":</span>
+ <span class="string">"[\"pubcid.org\",null,1706726077508,null,null,null,null,null,null,[106]]"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@lastNodeInfoReportAt":</span>
+ <span class="string">"1706888203818"</span>
+,
+  <span class="key">"__uv$https://now.gg@apstagCxMEnabled":</span>
+ <span class="string">"1"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@fe-recent-played-apps":</span>
+ <span class="string">"[{\"appId\":\"7308\",\"icon\":\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\",\"name\":\"Fortnite\",\"playUrl\":\"https://mathsspot.com/apps/epic-games/7308/fortnite.html\",\"appPageUrl\":\"https://now.gg/apps/epic-games/7308/fortnite.html\",\"packageName\":\"com.epicgames.fortnite\"}]"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@_iiq_sync_298684257":</span>
+ <span class="string">"1706800417976"</span>
+,
+  <span class="key">"__uv$https://now.gg@panoramaId_expiry":</span>
+ <span class="string">"1706906786335"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@debug":</span>
+ <span class="string">"false"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-openx":</span>
+ <span class="string">"[\"openx\",null,1706726077745,null,null,null,null,null,null,[111]]"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@_pubcid_exp":</span>
+ <span class="string">"Thu, 30 Jan 2025 18:37:07 GMT"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@id5id_cached_consent_data_exp":</span>
+ <span class="string">"Fri, 01 Mar 2024 18:37:08 GMT"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@_cc_id":</span>
+ <span class="string">"1898e90d4d30720134bcf1997715d8f2"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@persist:root":</span>
+ <span class="string">"{\"appPreferences\":\"{\\\"7308\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null,\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"7308\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\\\",\\\"name\\\":\\\"Fortnite\\\",\\\"playUrl\\\":\\\"https://mathsspot.com/apps/epic-games/7308/fortnite.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"packageName\\\":\\\"com.epicgames.fortnite\\\"}]}}\",\"user\":\"{\\\"mouseLockOnboardingCount\\\":0,\\\"shiftlockToastCount\\\":0,\\\"lastShiftLockToastDate\\\":\\\"Wed Dec 31 1969\\\",\\\"lastRobloxToastDate\\\":\\\"Wed Dec 31 1969\\\",\\\"gameGuideNotificationCount\\\":0,\\\"lastGameGuideNotifDate\\\":\\\"Wed Dec 31 1969\\\",\\\"loginNotificationCount\\\":0,\\\"lastLoginNotifDate\\\":\\\"Wed Dec 31 1969\\\",\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"7308\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\\\",\\\"name\\\":\\\"Fortnite\\\",\\\"playUrl\\\":\\\"https://mathsspot.com/apps/epic-games/7308/fortnite.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"packageName\\\":\\\"com.epicgames.fortnite\\\"}],\\\"gameplayRecordingTooltipCount\\\":0,\\\"lastGameplayRecordingTooltipDate\\\":\\\"Wed Dec 31 1969\\\",\\\"micRecordingEnabled\\\":false,\\\"totalPlayedApps\\\":0,\\\"totalPlaytime\\\":0,\\\"questsInfo\\\":[],\\\"questsTitle\\\":\\\"\\\",\\\"questsIcon\\\":\\\"\\\"}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"</span>
+,
+  <span class="key">"__uv$https://core.arc.io@propertySessions":</span>
+ <span class="string">"{\"null\":{\"propertySessionId\":\"e0c091b1-70ab-4dfd-b39f-d99b9c7fbd00\",\"activeBrokers\":[{\"brokerId\":\"1706888204826-054870719\",\"propertyId\":null,\"origin\":\"https://nowgg.nl\",\"isSwActive\":false}]}}"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@fe_uaId":</span>
+ <span class="string">"ua-K2SdyhgwfQt6MK2UeKoke"</span>
+,
+  <span class="key">"__uv$https://core.arc.io@_immortal|Arc_nodeId":</span>
+ <span class="string">"SgtBpcR4y5hjNoewrM1RsM"</span>
+,
+  <span class="key">"lastNodeInfoReportAt":</span>
+ <span class="string">"1707232538139"</span>
+,
+  <span class="key">"__uv$https://now.gg@cwglt":</span>
+ <span class="string">"1706820227766"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@loglevel":</span>
+ <span class="string">"WARN"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-yahoo.com":</span>
+ <span class="string">"[\"yahoo.com\",null,1706726077409,null,null,null,null,null,null,[111]]"</span>
+,
+  <span class="key">"__uv$https://www.google.com@rc::d-1706886995356":</span>
+ <span class="string">"dmNmN2Jic240b3Mx"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-33across.com":</span>
+ <span class="string">"[\"33across.com\",null,1706726077058,null,null,null,null,null,null,[100]]"</span>
+,
+  <span class="key">"__uv$https://now.gg@i18nextLng":</span>
+ <span class="string">"en"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@_pubcid":</span>
+ <span class="string">"5b6a9ba8-92b8-4c23-846d-2d4b6726f3d1"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@loglevel":</span>
+ <span class="string">"WARN"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@_iiq_fdata":</span>
+ <span class="string">"{\"pcid\":\"4459a7c9-2a31-437c-9282-4b91d01b521b\",\"pcidDate\":1706726227260,\"dbsaved\":\"false\"}"</span>
+,
+  <span class="key">"__uv$https://now.gg@cto_bundle":</span>
+ <span class="string">"E9yKP196UnI1TjNUaXpWT0hMZjNIaWljcXQyckl0UDE1MGQxaWYzdHQ5NTR4S0QzR3R5N1YwSmpzVmpmNjRwc3lvSzZGZnZHMTN3d2QwU3BtNk92NCUyRk5jMGpJYmFMZEhRRWNUaGxvSyUyQlNGZGtQJTJGc0ZHV0FuT1lMNnl3NnFVSkVXTW5qbk9PeFE4JTJGRGZ6NXYlMkZxWkZadEViTURnJTNEJTNE"</span>
+,
+  <span class="key">"__uv$https://now.gg@cwgl":</span>
+ <span class="string">"{\"country\":\"US\",\"region\":\"VA\",\"city\":\"Ashburn\",\"postalCode\":\"20149\"}"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@i18nextLng":</span>
+ <span class="string">"en"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@_cc_id_update_ts":</span>
+ <span class="string">"1706726227280"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@panoramaId_expiry_exp":</span>
+ <span class="string">"1706812627222"</span>
+,
+  <span class="key">"__uv$https://now.gg@_cc_id_update_ts":</span>
+ <span class="string">"1706820386353"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@apstagCxMEnabled":</span>
+ <span class="string">"1"</span>
+,
+  <span class="key">"__uv$https://now.gg@_cc_id":</span>
+ <span class="string">"51b51017c5bdcfa78c9a9a804de71390"</span>
+,
+  <span class="key">"__uv$https://now.gg@panoramaId_expiry_exp":</span>
+ <span class="string">"1706906786335"</span>
+,
+  <span class="key">"__uv$https://now.gg@fe_uaId":</span>
+ <span class="string">"ua-XsLnOopOMt8X9aIbNBWHs"</span>
+,
+  <span class="key">"theme":</span>
+ <span class="string">"dark"</span>
+,
+  <span class="key">"__uv$https://now.gg@_pubcid_exp":</span>
+ <span class="string">"Fri, 31 Jan 2025 20:46:26 GMT"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@userSource":</span>
+ <span class="string">"organic"</span>
+,
+  <span class="key">"__uv$https://core.arc.io@IWC_DEFAULT_EBUS":</span>
+ <span class="string">"{\"senderBusNodeId\":\"1c1032a8-6673-4777-cf41-672c8f434a6f\",\"args\":[\"windowisaliverequest\",\"1706820462356-180116484\"]}"</span>
+,
+  <span class="key">"__uv$https://core.arc.io@master":</span>
+ <span class="string">"\"1706888204826-054870719\""</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@id5id_cached_consent_data":</span>
+ <span class="string">"4244356496872954"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@_pubcid":</span>
+ <span class="string">"0173c9c1-9ab3-4c41-aef3-7fed876c5a04"</span>
+,
+  <span class="key">"__uv$https://now.gg@_pubcid":</span>
+ <span class="string">"8bb36f1d-a696-4a91-9baf-43b58f3e01bf"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@2DFj":</span>
+ <span class="string">"Cx3asPjQsD3asxSGCayGMv=="</span>
+,
+  <span class="key">"debug":</span>
+ <span class="string">"false"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@userAcqVar":</span>
+ <span class="string">"NA_2024 AT PST_JAN_31_UNDEFINED"</span>
+,
+  <span class="key">"__uv$https://www.roblox.com@RBXReturn":</span>
+ <span class="string">"{\"ts\":\"Wed Jan 31 2024\"}"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@panoramaId_expiry_exp":</span>
+ <span class="string">"1706906874587"</span>
+,
+  <span class="key">"__uv$https://www.google.com@rc::a":</span>
+ <span class="string">"dW94amhsaWIwcjkz"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@panoramaId_expiry":</span>
+ <span class="string">"1706906874587"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@persist:root":</span>
+ <span class="string">"{\"user\":\"{\\\"mouseLockOnboardingCount\\\":0,\\\"shiftlockToastCount\\\":0,\\\"lastShiftLockToastDate\\\":\\\"Wed Dec 31 1969\\\",\\\"lastRobloxToastDate\\\":\\\"Wed Dec 31 1969\\\",\\\"gameGuideNotificationCount\\\":0,\\\"lastGameGuideNotifDate\\\":\\\"Wed Dec 31 1969\\\",\\\"loginNotificationCount\\\":1,\\\"lastLoginNotifDate\\\":\\\"Fri Feb 02 2024\\\",\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"5349\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\\\",\\\"name\\\":\\\"Roblox\\\",\\\"playUrl\\\":\\\"https://nowgg.nl/play/roblox-corporation/5349/roblox\\\",\\\"appPageUrl\\\":\\\"https://nowgg.nl/apps/roblox-corporation/5349/roblox.html\\\",\\\"packageName\\\":\\\"com.roblox.client\\\"},{\\\"appId\\\":\\\"7308\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\\\",\\\"name\\\":\\\"Fortnite\\\",\\\"playUrl\\\":\\\"https://nowgg.nl/apps/epic-games/7308/fortnite.html\\\",\\\"appPageUrl\\\":\\\"https://nowgg.nl/apps/epic-games/7308/fortnite.html\\\",\\\"packageName\\\":\\\"com.epicgames.fortnite\\\"},{\\\"appId\\\":\\\"51686\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.nowgg.h5.pub807.app51686/icon/papa-s-freezeria.png\\\",\\\"name\\\":\\\"Papa's Freezeria\\\",\\\"playUrl\\\":\\\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\\\",\\\"appPageUrl\\\":\\\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\\\",\\\"packageName\\\":\\\"com.nowgg.h5.pub807.app51686\\\"}],\\\"gameplayRecordingTooltipCount\\\":0,\\\"lastGameplayRecordingTooltipDate\\\":\\\"Wed Dec 31 1969\\\",\\\"micRecordingEnabled\\\":false,\\\"totalPlayedApps\\\":0,\\\"totalPlaytime\\\":0,\\\"questsInfo\\\":[],\\\"questsTitle\\\":\\\"\\\",\\\"questsIcon\\\":\\\"\\\"}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\",\"appPreferences\":\"{\\\"5349\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null,\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"5349\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\\\",\\\"name\\\":\\\"Roblox\\\",\\\"playUrl\\\":\\\"https://nowgg.nl/play/roblox-corporation/5349/roblox\\\",\\\"appPageUrl\\\":\\\"https://nowgg.nl/apps/roblox-corporation/5349/roblox.html\\\",\\\"packageName\\\":\\\"com.roblox.client\\\"},{\\\"appId\\\":\\\"7308\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\\\",\\\"name\\\":\\\"Fortnite\\\",\\\"playUrl\\\":\\\"https://nowgg.nl/apps/epic-games/7308/fortnite.html\\\",\\\"appPageUrl\\\":\\\"https://nowgg.nl/apps/epic-games/7308/fortnite.html\\\",\\\"packageName\\\":\\\"com.epicgames.fortnite\\\"},{\\\"appId\\\":\\\"51686\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.nowgg.h5.pub807.app51686/icon/papa-s-freezeria.png\\\",\\\"name\\\":\\\"Papa's Freezeria\\\",\\\"playUrl\\\":\\\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\\\",\\\"appPageUrl\\\":\\\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\\\",\\\"packageName\\\":\\\"com.nowgg.h5.pub807.app51686\\\"}]},\\\"7308\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null},\\\"7999\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null},\\\"51686\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null,\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"51686\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.nowgg.h5.pub807.app51686/icon/papa-s-freezeria.png\\\",\\\"name\\\":\\\"Papa's Freezeria\\\",\\\"playUrl\\\":\\\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\\\",\\\"appPageUrl\\\":\\\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\\\",\\\"packageName\\\":\\\"com.nowgg.h5.pub807.app51686\\\"}]}}\"}"</span>
+,
+  <span class="key">"__uv$https://core.arc.io@debug":</span>
+ <span class="string">"false"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@_cc_id_update_ts":</span>
+ <span class="string">"1706820474611"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@i18nextLng":</span>
+ <span class="string">"en"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@cwglt":</span>
+ <span class="string">"1706820473904"</span>
+,
+  <span class="key">"__uv$https://now.gg@persist:root":</span>
+ <span class="string">"{\"appPreferences\":\"{\\\"5349\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null,\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"5349\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\\\",\\\"name\\\":\\\"Roblox\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"packageName\\\":\\\"com.roblox.client\\\"}]},\\\"7308\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null,\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"7308\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\\\",\\\"name\\\":\\\"Fortnite\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"packageName\\\":\\\"com.epicgames.fortnite\\\"},{\\\"appId\\\":\\\"7935\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.activision.callofduty.shooter/icon/call-of-duty.png\\\",\\\"name\\\":\\\"Call of Duty Mobile\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\\\",\\\"packageName\\\":\\\"com.activision.callofduty.shooter\\\"},{\\\"appId\\\":\\\"5349\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\\\",\\\"name\\\":\\\"Roblox\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"packageName\\\":\\\"com.roblox.client\\\"}]},\\\"7935\\\":{\\\"imapOverlay\\\":true,\\\"volume\\\":0.5,\\\"imapScheme\\\":\\\"\\\",\\\"fsWidget\\\":{\\\"x\\\":40,\\\"y\\\":15},\\\"mouseSensitivity\\\":5,\\\"legacyControls\\\":false,\\\"config\\\":null,\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"7935\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.activision.callofduty.shooter/icon/call-of-duty.png\\\",\\\"name\\\":\\\"Call of Duty Mobile\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\\\",\\\"packageName\\\":\\\"com.activision.callofduty.shooter\\\"},{\\\"appId\\\":\\\"7308\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\\\",\\\"name\\\":\\\"Fortnite\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"packageName\\\":\\\"com.epicgames.fortnite\\\"},{\\\"appId\\\":\\\"5349\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\\\",\\\"name\\\":\\\"Roblox\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"packageName\\\":\\\"com.roblox.client\\\"}]}}\",\"user\":\"{\\\"mouseLockOnboardingCount\\\":0,\\\"shiftlockToastCount\\\":0,\\\"lastShiftLockToastDate\\\":\\\"Wed Dec 31 1969\\\",\\\"lastRobloxToastDate\\\":\\\"Wed Dec 31 1969\\\",\\\"gameGuideNotificationCount\\\":0,\\\"lastGameGuideNotifDate\\\":\\\"Wed Dec 31 1969\\\",\\\"loginNotificationCount\\\":0,\\\"lastLoginNotifDate\\\":\\\"Wed Dec 31 1969\\\",\\\"recentPlayedApps\\\":[{\\\"appId\\\":\\\"7308\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\\\",\\\"name\\\":\\\"Fortnite\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/epic-games/7308/fortnite.html\\\",\\\"packageName\\\":\\\"com.epicgames.fortnite\\\"},{\\\"appId\\\":\\\"7935\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.activision.callofduty.shooter/icon/call-of-duty.png\\\",\\\"name\\\":\\\"Call of Duty Mobile\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/activision-publishing-inc/7935/call-of-duty.html\\\",\\\"packageName\\\":\\\"com.activision.callofduty.shooter\\\"},{\\\"appId\\\":\\\"5349\\\",\\\"icon\\\":\\\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\\\",\\\"name\\\":\\\"Roblox\\\",\\\"playUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"appPageUrl\\\":\\\"https://now.gg/apps/roblox-corporation/5349/roblox.html\\\",\\\"packageName\\\":\\\"com.roblox.client\\\"}],\\\"gameplayRecordingTooltipCount\\\":0,\\\"lastGameplayRecordingTooltipDate\\\":\\\"Wed Dec 31 1969\\\",\\\"micRecordingEnabled\\\":false,\\\"totalPlayedApps\\\":0,\\\"totalPlaytime\\\":0,\\\"questsInfo\\\":[],\\\"questsTitle\\\":\\\"\\\",\\\"questsIcon\\\":\\\"\\\"}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-id5-sync.com":</span>
+ <span class="string">"[\"id5-sync.com\",null,1706726077056,null,null,null,null,null,null,[100]]"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@_iiq_fdata_298684257":</span>
+ <span class="string">"{\"callCount\":0,\"pubprovidedPrebidCallCount\":0,\"manualCallCount\":0,\"failCount\":0,\"noDataCounter\":0,\"cttl\":43200000,\"clientType\":\"\",\"adserverDeviceType\":1,\"terminationCause\":35,\"profile\":\"\",\"siteId\":121105968,\"date\":1706726227513,\"data\":\"\"}"</span>
+,
+  <span class="key">"__uv$https://now.gg@_GESPSK-uidapi.com":</span>
+ <span class="string">"[\"uidapi.com\",null,1706726077058,null,null,null,null,null,null,[100]]"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@bugsnag-anonymous-id":</span>
+ <span class="string">"cls3cyhmu00003b6k9tmandyj"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@_cc_id":</span>
+ <span class="string">"851896d66504cdd83c67ae6a87b94c4e"</span>
+,
+  <span class="key">"__uv$https://www.roblox.com@RobloxLocaleCode":</span>
+ <span class="string">"en_us"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@userAcqVar":</span>
+ <span class="string">"NA_2024 AT PST_FEB_01_UNDEFINED"</span>
+,
+  <span class="key">"__uv$https://mathsspot.com@panoramaId_expiry":</span>
+ <span class="string">"1706812627222"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@fe_uaId":</span>
+ <span class="string">"ua-UuT6UK2APOtadfrP7FbUC"</span>
+,
+  <span class="key">"__uv$https://nowgg.nl@fe-recent-played-apps":</span>
+ <span class="string">"[{\"appId\":\"5349\",\"icon\":\"https://cdn.now.gg/apps-content/com.roblox.client/icon/roblox.png\",\"name\":\"Roblox\",\"playUrl\":\"https://nowgg.nl/play/roblox-corporation/5349/roblox\",\"appPageUrl\":\"https://nowgg.nl/apps/roblox-corporation/5349/roblox.html\",\"packageName\":\"com.roblox.client\"},{\"appId\":\"7308\",\"icon\":\"https://cdn.now.gg/apps-content/com.epicgames.fortnite/icon/fortnite.png\",\"name\":\"Fortnite\",\"playUrl\":\"https://nowgg.nl/apps/epic-games/7308/fortnite.html\",\"appPageUrl\":\"https://nowgg.nl/apps/epic-games/7308/fortnite.html\",\"packageName\":\"com.epicgames.fortnite\"},{\"appId\":\"51686\",\"icon\":\"https://cdn.now.gg/apps-content/com.nowgg.h5.pub807.app51686/icon/papa-s-freezeria.png\",\"name\":\"Papa's Freezeria\",\"playUrl\":\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\",\"appPageUrl\":\"https://nowgg.nl/apps/flipline-studios/51686/papa-s-freezeria.html\",\"packageName\":\"com.nowgg.h5.pub807.app51686\"}]"</span>
+,
+  <span class="key">"__uv$https://now.gg@loglevel":</span>
+ <span class="string">"WARN"</span>
+
+}</div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-settings hidden">
+			<h3 style="border-bottom: 2px solid #000;">Settings</h3>
+
+		</div>
+
+	</div>
+</div>
+<div class="snowlord-devConsole-tooltip-container" style="display: none;"><div id="snowlord-devConsole-tooltip" style="padding: 5px; background-color: #000; position: absolute; color: #fff; user-select: none; z-index: 99999999999; border-radius: 10px; ">
+		<span id="snowlord-devConsole-tooltip-elementType" style="color:purple;"></span>
+
+		<span id="snowlord-devConsole-tooltip-classType" style="color:green;"></span>
+
+		<span id="snowlord-devConsole-tooltip-idType" style="color:orange;"></span>
+
+	</div>
+</div>
