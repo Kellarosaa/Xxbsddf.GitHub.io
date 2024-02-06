@@ -1,0 +1,223 @@
+<div title="Ultraviolet Logo" class="flex-center logo-wrapper header-center">
+      <img class="logo" src="uv.png" alt="Ultraviolet">
+      <h1>Ultraviolet | TN</h1>
+
+    </div>
+
+    <div class="flex-center desc">
+      <p>
+        Ultraviolet is highly sophisticated proxy used for evading internet
+        censorship.
+      </p>
+
+    </div>
+
+
+    <form id="uv-form" class="flex-center">
+      <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden">
+      <input id="uv-address" type="text" placeholder="Search the web freely">
+    </form>
+
+    <div class="desc left-margin">
+      <p id="uv-error"></p>
+
+      <pre id="uv-error-code"></pre>
+
+    </div>
+
+    <footer>
+      <a title="The TitaniumNetwork GitHub organization" href="https://github.com/titaniumnetwork-dev">TitaniumNetwork</a>
+
+      <a title="The TitaniumNetwork Discord" href="https://discord.gg/unblock">Discord</a>
+
+      <a title="The TompHTTP GitHub organization" href="https://github.com/tomphttp">TompHTTP</a>
+
+      <a title="The official deployment repository for Ultraviolet" href="https://github.com/titaniumnetwork-dev/Ultraviolet-App">GitHub</a>
+
+      <a title="License information" href="credits.html" style="margin-left: auto">Credits</a>
+
+      <span>Ultraviolet © TN 2022</span>
+
+    </footer>
+
+  
+
+<div style="pointer-events: none; box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 35px; font-family: Consolas, monaco, monospace; transition: transform 1s; border-radius: 3px 0px 0px 3px; width: 250px; height: 90px; background-color: rgb(17, 175, 0); bottom: 20px; right: 0px; box-sizing: border-box; margin: 0px; padding: 30px 0px 0px; z-index: 2147483647; text-align: center; position: fixed; line-height: 0; color: rgb(0, 0, 0);">
+					<span style="line-height: 0px; font-size: 25px; font-family: inherit;">Developed By</span>
+<br>
+					<span style="line-height: 45px; font-size: 45px; text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, 2px 2px 2px rgba(206, 89, 55, 0.1); font-family: inherit;">Drew Snow</span>
+
+				</div>
+<div id="extensionSettingsContainer">
+			<span class="extensionMenuItem" id="extensionExitButton">×</span>
+
+			<span class="extensionMenuItem" id="extensionResetButton">↺</span>
+
+			<h2 id="extensionSettingsTitle">Settings</h2>
+
+			<div>Gravity Score<input id="gravityScoreInput" class="numberOnlyInput"></div>
+<br>
+			<div>Learn Speed<input id="learnSpeedInput" class="numberOnlyInput"></div>
+<br>
+			<div>Live Answer Delay<input id="liveDelayInput" class="numberOnlyInput"></div>
+<br>
+			<div>Live Auto-Answer<input id="liveAutoAnswerInput" type="checkbox"></div>
+<br>
+			<div>Live Show Answer<input id="liveShowAnswerInput" type="checkbox"></div>
+<br>
+			<div>Live Toggle Key<input name="live" class="adaptKeyInput" id="liveKeyInput"></div>
+<br>
+			<div>Match Time<input id="matchTimeInput" class="numberOnlyInput"></div>
+<br>
+			<div>Test Key<input name="test" class="adaptKeyInput" id="testKeyInput"></div>
+<br>
+			<button id="saveSettings">Save</button>
+
+		</div>
+<div class="snowlord-devConsole-container showing">
+	<div class="snowlord-devConsole-container-nav">
+		<a class="snowlord-devConsole-container-nav-elementViewer" style="float: left;">🔍</a>
+
+		<a class="snowlord-devConsole-container-nav-elementEditor" style="float: left;">✎</a>
+
+		<a name="snowlord-devConsole-container-body-elements" style="float: left;">Elements</a>
+
+		<a name="snowlord-devConsole-container-body-console" style="float: left;">Console</a>
+
+		<a name="snowlord-devConsole-container-body-sources" style="float: left;">Sources</a>
+
+		<a name="snowlord-devConsole-container-body-tools" style="float: left;">Tools</a>
+
+		<a name="snowlord-devConsole-container-body-settings" style="float: left;">Settings</a>
+
+		<a class="snowlord-devConsole-container-body-exit" style="float: right;">🗙</a>
+
+	</div>
+
+	
+	<div class="snowlord-devConsole-container-body">
+		<div class="snowlord-devConsole-container-body-elements hidden">
+			<h3 style="border-bottom: 2px solid #000;">Elements</h3>
+
+            <div class="snowlord-devConsole-container-body-elements-container" style="white-space: pre; width: 100%; height: 200px; overflow: scroll;">
+            </div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-console hidden">
+			<div class="snowlord-devConsole-container-body-console-text" style="user-select: auto;">
+				<div class="snowlord-devConsole-container-body-console-messages">
+					<span style="color: #bababa; user-select: none;">⮞9:08:08 </span>
+
+					<span style="color: #000;">Console has loaded!</span>
+
+				</div>
+
+			</div>
+
+			<div class="snowlord-devConsole-container-body-console-commands">
+				<textarea id="snowlord-devConsole-container-body-console-input" placeholder="console.log('Hello World!');" style="resize: horizontal; position: sticky; width: 100%; height: 90%; outline: none; border: none;"></textarea>
+
+			</div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-sources showing">
+			<div class="snowlord-devConsole-container-body-sources-scripts" style="padding-left: 10px;">
+				<h3 style="border-bottom: 2px solid #000;">Page <a class="snowlord-devConsole-container-body-sources-scripts-reload" style="cursor: pointer; color: #0a68ff; user-select: none;">↺</a>
+</h3>
+
+				<div class="snowlord-devConsole-container-body-sources-scripts-container" style="float: left; width: 60%; background-color: #bababa;">
+					<ul style="float: left; width: 26%; padding: 3%; margin: 0;">
+						<li>Scripts</li>
+
+						<ul class="snowlord-devConsole-container-body-sources-other" style="padding: 3px; height: 120px; overflow:hidden; overflow-y:scroll; background-color: #e0e0e0;"><li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">uv.bundle.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">uv.config.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">register-sw.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">search.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">index.js</a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.href;" href="#">main.js</a>
+</li>
+</ul>
+
+					</ul>
+
+					<ul style="float: left; width: 26%; padding: 3%; margin: 0;">
+						<li>Styles</li>
+
+						<ul class="snowlord-devConsole-container-body-sources-styles" style="padding: 3px; height: 120px; overflow:hidden; overflow-y:scroll; background-color: #e0e0e0;"><li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank"></a>
+</li>
+<li><a onclick="document.getElementsByClassName(&quot;snowlord-devConsole-container-body-sources-scripts-preview-frame&quot;)[0].src = this.src;" target="_blank">index.css</a>
+</li>
+</ul>
+
+					</ul>
+
+					<ul style="float: left; width: 26%; padding: 3%; margin: 0;">
+						<li>Meta</li>
+
+						<ul class="snowlord-devConsole-container-body-sources-main" style="padding: 3px; height: 120px; overflow:hidden; overflow-y:scroll; background-color: #e0e0e0;"><li><a onclick="alert('');">undefined</a>
+</li>
+<li><a onclick="alert('width=device-width, initial-scale=1.0, shrink-to-fit=no');">viewport</a>
+</li>
+<li><a onclick="alert('Ultraviolet is a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Unblock sites today!');">description</a>
+</li>
+<li><a onclick="alert('proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked');">keywords</a>
+</li>
+<li><a onclick="alert('#434c5e');">theme-color</a>
+</li>
+<li><a onclick="alert('index, follow, snippet');">googlebot</a>
+</li>
+</ul>
+
+					</ul>
+
+				</div>
+
+				
+				<div class="snowlord-devConsole-container-body-sources-scripts-preview" style="float: left; width: 40 %; background-color: #bababa;">
+					<iframe class="snowlord-devConsole-container-body-sources-scripts-preview-frame" width="100%" height="100%" frameborder="0" scrolling="yes"></iframe>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-tools hidden">
+			<h3 style="border-bottom: 2px solid #000;">Tools</h3>
+
+            <h4>Local Storage</h4>
+<div id="snowlord-devConsole-localStorage">{
+  <span class="key">"extensionSettings":</span>
+ <span class="string">"{\"developer\":\"Drew Snow\",\"gravity\":{\"score\":4294967295},\"learn\":{\"speed\":100},\"live\":{\"answerDelay\":100,\"autoAnswer\":true,\"displayAnswer\":true,\"key\":67},\"match\":{\"time\":0.5},\"night\":false,\"test\":{\"key\":67}}"</span>
+
+}</div>
+
+		</div>
+
+		
+		<div class="snowlord-devConsole-container-body-settings hidden">
+			<h3 style="border-bottom: 2px solid #000;">Settings</h3>
+
+		</div>
+
+	</div>
+</div>
+<div class="snowlord-devConsole-tooltip-container" style="display: none;"><div id="snowlord-devConsole-tooltip" style="padding: 5px; background-color: #000; position: absolute; color: #fff; user-select: none; z-index: 99999999999; border-radius: 10px; ">
+		<span id="snowlord-devConsole-tooltip-elementType" style="color:purple;"></span>
+
+		<span id="snowlord-devConsole-tooltip-classType" style="color:green;"></span>
+
+		<span id="snowlord-devConsole-tooltip-idType" style="color:orange;"></span>
+
+	</div>
+</div>
